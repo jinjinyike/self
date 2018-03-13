@@ -1,0 +1,228 @@
+body {
+    font-family: 'PingFangSC-Regular', '微软雅黑';
+    font-size: 14px;
+}
+
+
+/*input输入框自定义*/
+
+.right-content-index {
+    /* color: #666; */
+    width: 96%;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 0 0 5px 0 rgba(121, 121, 121, 0.32);
+    background: #FFF;
+    /* font-size: 14px; */
+}
+
+.el-input {
+    display: inline-block;
+    width: 120px;
+}
+
+.el-input__inner {
+    height: 30px !important;
+    border-radius: 0;
+}
+
+.el-input__icon {
+    line-height: 30px;
+}
+
+.el-textarea__inner {
+    border-radius: 0;
+}
+
+
+/*select下input同宽*/
+
+.el-select>.el-input {
+    width: 100%;
+}
+
+.el-cascader>.el-input {
+    width: 100%;
+}
+
+.el-input-group__append {
+    border-radius: 0;
+    padding: 0 10px;
+}
+
+
+/*tab选项卡*/
+
+.el-tabs__item {
+    width: 20.5%;
+    padding: 0 70px;
+    background: #F5F6FA;
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+}
+
+.el-tabs__item.is-active {
+    background-color: white;
+}
+
+.el-tabs--top.el-tabs--card .el-tabs__item:nth-child(2) {
+    padding-left: 70px;
+}
+
+.el-tabs--top.el-tabs--card .el-tabs__item:nth-child(5) {
+    padding-right: 70px;
+}
+
+.el-tabs__item.is-disabled {
+    color: #666666;
+}
+
+.el-tabs__nav {
+    width: 100%;
+}
+
+.el-tabs--card>.el-tabs__header .el-tabs__nav {
+    border: 0;
+}
+
+.self .el-tabs__item {
+    padding: 0 70px;
+    background: transparent;
+}
+
+.self .el-tabs__active-bar {
+    width: 214px;
+}
+
+.self.el-tabs--top .el-tabs__item:last-child {
+    padding-right: 70px;
+}
+
+.self.el-tabs--top .el-tabs__item:nth-child(2) {
+    padding-left: 70px;
+}
+/*添加订单*/
+.add .el-tabs__nav{
+    background: #F5F6FA;
+}
+.add.el-tabs--top.el-tabs--card .el-tabs__item:nth-child(2) {
+    padding: 0px;
+}
+textarea {
+    font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei';
+}
+
+.vue-city-picker {
+    margin-left: 10px;
+}
+
+.el-submenu__title,
+.el-menu-item {
+    height: 40px;
+    line-height: 40px;
+}
+
+.el-step__icon {
+    width: 80px;
+    border: none!important;
+}
+
+.el-step__title.is-finish,
+.el-step__title.is-process {
+    color: #333333;
+    font-weight: normal;
+}
+
+.el-step__title.is-wait {
+    color: #999;
+}
+
+.el-step__head.is-finish {
+    color: #3CC8DE!important;
+    border-color: #3CC8DE!important;
+}
+
+.el-upload--picture-card {
+    background: url('/static/img/ico_upload@2x.png') no-repeat center;
+    background-size: auto;
+}
+
+.el-upload--picture-card>i {
+    display: none;
+}
+
+.el-submenu__icon-arrow {
+    top: 55%;
+}
+
+.el-upload--picture-card {
+    border: none;
+}
+
+.item-list span {
+    margin-left: 10px;
+}
+
+
+/* 设置表格 */
+
+.el-table th {
+    height: 45px;
+    padding: 6px 0;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+
+.el-table td {
+    padding: 6px 0;
+    height: 40px;
+}
+
+.el-table__header-wrapper {
+    border-radius: 4px;
+    margin-bottom: 4px;
+    box-shadow: 1px 1px 4px 0 rgba(121, 121, 121, 0.50);
+}
+
+
+/* 隔行变色背景色 */
+
+.el-table .info-row {
+    background: #F1F2F6;
+}
+
+.el-table .info-row-disable {
+    background: #F4F4F4;
+    color: #BBB;
+}
+
+.el-table__body-wrapper {
+    overflow-x: hidden;
+}
+
+.el-submenu .el-menu-item {
+    padding-left: 62px !important;
+}
+
+
+/*模态框*/
+
+.el-dialog__body {
+    line-height: inherit;
+}
+
+.el-tooltip {
+    /* 表格中数据宽度限制显示... */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.el-dialog {
+    /* background: #FBFCFF; */
+    box-shadow: 0 1px 4px 0 rgba(121, 121, 121, 0.50);
+    border-radius: 6px;
+}

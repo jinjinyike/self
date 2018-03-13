@@ -1,0 +1,95 @@
+/* #editor-container {
+    display: inline-block;
+    width: 670px;
+}
+.ql-toolbar {
+    display: inline-block;
+    height: 40px;
+    border: 1px solid #ddd;
+    width: 660px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    line-height: 40px;
+}
+.ql-editor {
+    height: 100%;
+    border: 1px solid #ddd;
+    outline: none;
+    overflow: auto;
+    padding: 10px;
+}
+.ql-formats .ql-italic,
+.ql-formats .ql-image,
+.ql-formats .ql-video {
+    width: 28px;
+    height: 25px;
+    margin-top: 8px;
+    outline: none;
+    margin-left: 20px;
+    border: none;
+}
+
+.ql-formats .ql-italic {
+    background: url('/static/img/word.png') no-repeat;
+    background-size: 26px 24px;
+}
+
+.ql-formats .ql-image {
+    background: url('/static/img/image.png') no-repeat;
+    background-size: 26px 24px;
+}
+
+.ql-formats .ql-video {
+    background: url('/static/img/video.png') no-repeat;
+    background-size: 26px 24px;
+}
+
+.ql-clipboard {
+    display: none;
+} */
+
+
+/* 
+.ql-picker-label {
+    display: none;
+} */
+
+
+/* .ql-toolbar {
+    display: none;
+} */
+
+#editor-container {
+    display: inline-block;
+    width: 660px;
+}
+
+#editor-container .ql-italic,
+#editor-container .ql-underline,
+#editor-container .ql-strike,
+#editor-container .ql-blockquote,
+#editor-container .ql-code-block,
+#editor-container .ql-header,
+#editor-container .ql-list,
+#editor-container .ql-script,
+#editor-container .ql-indent,
+#editor-container .ql-direction,
+#editor-container .ql-picker,
+#editor-container .ql-link,
+#editor-container .ql-bold {
+    display: none;
+}
+
+.ql-clean {
+    margin-left: -160px;
+}
+
+.ql-image {
+    margin-left: -140px;
+}
+
+.ql-video {
+    margin-left: -100px;
+}
+
+

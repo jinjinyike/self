@@ -1,0 +1,152 @@
+ * {
+            box-sizing: border-box;
+        }
+        ul {
+            list-style-type: none;
+        }
+        body {
+            font-family: Verdana, sans-serif;
+            background: #E8F0F3;
+        }
+        #calendar{
+            width: 502px;
+            display: inline-block;
+            /*position: fixed;*/
+            /*top: 50%;*/
+            /*left: 50%;*/
+            /*margin-left: -250px;*/
+            /*margin-top: -150px;*/
+            margin:0 10px;
+            border: 1px solid #45C8DC;
+            background-color: white;
+            vertical-align: middle;
+            /*box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.1), 0 1px 5px 0 rgba(0,0,0,0.12);*/
+        }
+        .cal-day{
+            display: inline-block;
+            width: 420px;
+        }
+        .month {
+            width: 80px;
+            height: 290px;
+            display: block;
+            float: left;
+            font-size: 14px;
+        }
+        .month ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .year-month {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .year-month:hover {
+            cursor: pointer;
+            /*background: rgba(150, 2, 12, 0.1);*/
+        }
+        .choose-year {
+            /*padding-left: 10px;
+            padding-right: 10px;*/
+            margin-bottom: 10px;
+        }
+        .choose-month ,.choose-year{
+            display: block;
+            text-align: center;
+            font-size: 0.7rem;
+        }
+        .arrow {
+            padding: 38px 30px;
+        }
+        .arrow:hover {
+            cursor: pointer;
+            /*background: rgba(100, 2, 12, 0.1);*/
+        }
+        .month ul li {
+            /*color: #333;*/
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        .weekdays {
+            margin: 0;
+            margin-bottom: 1px;
+            height: 40px;
+            padding: 10px 0;
+            background-color: #45C8DC;
+            display: flex;
+            flex-wrap: wrap;
+            color: #FFFFFF;
+            justify-content: space-around;
+        }
+        .weekdays li {
+            display: inline-block;
+            width: 55px;
+            text-align: center;
+        }
+        .days {
+            padding: 0;
+            background: #FFFFFF;
+            margin: 0;
+            height: 250px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .days li {
+            float: left;
+            list-style-type: none;
+            display: inline-block;
+            width: 60px;
+            height: 50px;
+            text-align: left;
+            padding: 5px 0 5px 5px;
+            /*padding-bottom: 5px;
+            padding-top: 5px;
+            padding-left: 5px;*/
+            font-size: 0.6rem;
+            color: #aaa;
+        }
+        .days li .active {
+            padding: 6px 10px;
+            border-radius: 50%;
+            background: #00B8EC;
+            color: #fff;
+        }
+        .days li .other-month {
+            padding: 5px;
+            color: gainsboro;
+        }
+        .days li:hover {
+        	cursor: pointer;
+        }
+        .red{
+        	color: #D82585;
+        	display: block;
+        }
+        .price{
+            margin-top: 10px;
+        }
+    	.blue {
+    		background-color: #45C8DC;
+    	}
+        .days .blue .red{
+            color: #fff;
+        }
+    	.days li{
+    		border:1px solid #eaeaea;
+    		border-width: 0 0 1px 1px;
+    	}
+    	.back-now{
+            height: 40px;
+    		text-align: center;
+    		padding: 10px 0;
+            letter-spacing: 0;
+            cursor: pointer;
+            background-color: #45C8DC;
+            color: white;
+    	}

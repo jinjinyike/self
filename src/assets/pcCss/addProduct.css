@@ -1,0 +1,188 @@
+#add-pro {
+    width: 96%;
+    box-shadow: 0 0 5px 0 rgba(121, 121, 121, 0.32);
+    font-size: 14px;
+    color: #333333;
+}
+/*.el-select,*/
+
+.el-input,
+.el-select,
+.el-textarea,
+.el-cascader {
+    margin: 0 10px;
+}
+
+.el-select .el-input {
+    margin: 0;
+}
+
+.el-cascader {
+    line-height: 30px;
+    width: 18%;
+}
+
+.el-tag {
+    margin: 5px 0 5px 10px;
+    border-radius: 0;
+    height: 30px;
+    /*margin-bottom: 5px;*/
+}
+.line-tag{
+    line-height: 28px;
+}
+.el-button--small {
+    height: 30px;
+    border-radius: 0;
+    background-color: white;
+    border-color: #45C8DC;
+}
+
+.el-button--primary.is-plain:hover,
+.el-button--primary.is-plain:focus {
+    background: white;
+    color: #45C8DC;
+}
+
+.el-textarea {
+    width: 48%;
+    vertical-align: top;
+}
+
+.el-checkbox-group {
+    display: inline-block;
+}
+
+.item {
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.item-bottom {
+    margin-bottom: 10px;
+}
+
+.item-left {
+    margin-left: 10px;
+}
+
+.dot {
+    border-bottom: 1px dashed #DDDDDD;
+    margin: 20px 15px 20px 15px;
+}
+
+.span-title {
+    width: 60px;
+    display: inline-block;
+    text-align: right;
+    color: #666;
+}
+
+.right-title {
+    width: 105px;
+}
+
+.price-item {
+    margin-top: 10px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.button-area {
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
+.button-area .el-button {
+    width: 120px;
+}
+.el-input-group__append{
+    border-radius: 0;
+}
+.el-input-group__append {
+    border-radius: 0;
+    padding: 0 10px;
+}
+
+
+/*美化上传难看的按钮*/
+
+.file {
+    position: relative;
+    display: inline-block;
+    background: white;
+    border: 1px solid #99D3F5;
+    border-radius: 0;
+    padding: 4px 15px;
+    overflow: hidden;
+    color: #45C8DC;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+
+
+/*.file:hover {
+    background: #409EFF;
+    border-color: #78C3F3;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}*/
+
+.tip {
+    color: #ea4646;
+}
+
+
+/*//团期*/
+
+.price-append .el-input {
+    width: 13.8%;
+    display: inline-table;
+}
+
+.el-input-group__append {
+    padding: 0 10px;
+}
+
+
+/*el-input-group__append*/
+
+.el-upload--picture-card {
+    margin-top: 10px;
+}
+
+.span-color {
+    color: #666;
+}
+
+.item-left {
+    margin-left: 10px;
+}
+
+.span-con {
+    margin: 0 10px;
+    color: #666;
+}
+/*公共按钮*/
+/*.button-area.el-button:hover,*/
+.button-area .el-button--primary.is-plain:hover,
+.button-area .el-button--primary.is-plain:focus{
+    background-color: #45C8DC;
+    color: white;
+}
